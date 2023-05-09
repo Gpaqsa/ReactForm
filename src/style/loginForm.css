@@ -52,8 +52,17 @@ input {
     justify-content: space-between;
 }
 
-.pageButons button {
+.pageButons button{
     background-color: transparent;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.registerBtn {
+     background-color: transparent;
     font-size: 14px;
     border: none;
     cursor: pointer;
