@@ -11,7 +11,7 @@
 .loginForm > div {
     display: inherit;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 10px;
 
 }
@@ -29,3 +29,34 @@ input {
 
 /* buttons */
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons .logBtn{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.pageButons {
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageButons button {
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}

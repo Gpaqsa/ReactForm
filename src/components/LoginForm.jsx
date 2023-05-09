@@ -14,7 +14,7 @@ const LoginForm = () => {
         </div>
       </form>
       <div className="buttons">
-        <button>Log In</button>
+        <button className="logBtn">Log In</button>
         <div className="pageButons">
           <button>Forget Password</button>
           <button>Register</button>
