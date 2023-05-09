@@ -7,6 +7,7 @@ const Navbar = () => {
         <li className="page">
           <a href="#">Login</a>
         </li>
+        <hr className="line" />
         <li className="page">
           <a href="#">Register</a>
         </li>
