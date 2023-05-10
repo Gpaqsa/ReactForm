@@ -35,3 +35,24 @@
     width: 300px;
     margin-left: 30px;
 }
+
+.erorrInputActive{
+    text-decoration: overline red;
+    border: 3px solid #f80505;
+}
+
+
+
+span {
+    position: relative;
+    bottom: 15px;
+    color: red;
+}
+
+.lastnameSpan {
+    left: 150px;
+}
+
+.nameSpan {
+    left: 100px;
+}
