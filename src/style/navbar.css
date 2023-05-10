@@ -28,3 +28,15 @@
 .page > a:hover {
   color: rgb(10, 147, 10);
 }
+
+
+/* Responsive */
+@media screen and (max-width: 780px) {
+	.navbar {
+	   width: 100%;
+	}
+  .page-list {
+    width: 100%;
+    justify-content: center;
+  }
+}

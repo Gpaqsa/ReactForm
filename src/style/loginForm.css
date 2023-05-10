@@ -84,3 +84,11 @@ span {
     left: 10px;
     color: red;
 }
+
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+	.loginForm {
+	   width: 100%;
+	}
+}

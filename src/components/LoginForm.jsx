@@ -39,7 +39,7 @@ const LoginForm = () => {
             value={userData.email}
           />
           {submited && !userData.email ? (
-            <span>Please enter your Fullname</span>
+            <span>Please enter your Email</span>
           ) : null}
         </div>
         <div className="">
@@ -57,7 +57,7 @@ const LoginForm = () => {
             value={userData.password}
           />
           {submited && !userData.password ? (
-            <span>Please enter your Fullname</span>
+            <span>Please enter your Password</span>
           ) : null}
         </div>
       </form>
