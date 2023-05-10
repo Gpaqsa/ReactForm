@@ -120,6 +120,11 @@ const RegisterForm = () => {
             value="Register"
           />
         </div>
+        {submited ? (
+          <h2 className="success_message form-row">
+            Success! Thank you for Registering
+          </h2>
+        ) : null}
       </form>
     </div>
   );
